@@ -1,0 +1,25 @@
+* {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  width: 100%;
+  align-items: center;
+}
+.navbar > img {
+  width: 142px;
+  height: 69px;
+}
+
+.navbar_list {
+  display: flex;
+  width: 60%;
+}
+.navbar_list_item {
+  width: 50%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
